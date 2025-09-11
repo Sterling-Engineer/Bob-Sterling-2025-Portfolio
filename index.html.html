@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bob Sterling - Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  
+  <!-- ===== TOP BANNER ===== -->
+  <header class="top-banner">
+    <div>
+      <nav class="navbar">
+        <!-- Hidden checkbox -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle"/>
+
+        <!-- Hamburger -->
+        <label for="menu-toggle" class="hamburger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <!-- Navigation Links -->
+        <ul class="nav-links">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#recommendations">Recommendations</a></li>
+          <li><a href="#contact-section">Leave A Recommendation</a></li>
+        </ul>
+
+        <!-- Logo -->
+        <div class="logo-text">Bob's Portfolio 2025</div>
+      </nav>
+
+      <div class="contact_info">
+        <img class="envelope" src="Pics/envelope.png" alt="Envelope icon" />
+        BobSterling@jeemail.com
+      </div>
+
+      <div class="contact_info">
+        <img class="phone" src="Pics/phone.png" alt="Phone icon" /> 
+        +13456764598
+      </div>
+    </div>
+  </header>
+
+  <!-- =====  Section 1 Welcome ===== -->
+  <main>
+    <section id="welcome">
+      <h1>Welcome To My First Webpage</h1>
+      <div>
+        <img class="responsive-image" src="Pics/logo2025 (600 x 300 px).png" alt="Sterling Engineering logo">
+      </div>
+      <div class="slogan">
+        <p>Enginering Today, A Better World</p> 
+        <p>For Tomorrow</p>
+      </div>
+    </section>
+
+    <!-- ===== SECTION 2 Images ===== -->
+    <section id="section2">
+      <div class="images">
+        <img src="Pics/laser.jpg" alt="CNC Laser" class="bio-image">
+        <img src="Pics/Untitled (500 x 500 px).jpg" alt="A headshot of Bob Sterling" class="bio-image">
+        <img src="Pics/laser panel.jpg" alt="CNC Panel" class="laser bio-image">
+      </div>  
+    </section>
+
+    <!-- ===== SECTION 3 About Me ===== -->
+    <section id="about"> 
+      <h2 class="about-header">About Me</h2>
+      <div>
+        <img class="responsive-image about-image" src="Pics/tape shot.jpg" alt="CNC Laser">
+      </div>
+      <p class="bordered-paragraph">I am a full stack developer who is fresh to the industry!</p> 
+      <p>The seed for development was first planted when I was a CNC laser operator.</p>
+      <p>With a thirst to learn from those around me as well as personal research, I learned not only how to operate a CNC laser, but how to manipulate and edit the code!</p>
+      <p>Those skills have played a key role in my growth and development in this field. I am driven to learn and research new things and with a strong work ethic I aspire to achieve great things in the world of development!</p>
+    </section>
+
+    <!-- ===== SECTION 4 Skills ===== -->
+    <section id="skills">
+      <div class="skills-container">
+        <h2>Skills</h2>
+      </div>
+      <div class="all_skills">
+        <div class="skill">
+          <img src="https://www.stockvault.net//data/2015/08/27/177152/thumb16.jpg" alt="HTML Icon"/>
+          <h6>HTML</h6>
+          <p>1 year experience</p>
+        </div>
+        <div class="skill">
+          <img src="Pics/js.jpeg" alt="JavaScript Icon"/>
+          <h6>JavaScript</h6>
+          <p>1 year experience</p>
+        </div>
+        <div class="skill">
+          <img src="https://www.stockvault.net/data/2017/06/30/237369/thumb16.jpg" alt="Cloud Icon"/>
+          <h6>Cloud Computing</h6>
+          <p>1 year experience</p>
+        </div>
+        <div class="skill">
+          <img src="https://www.stockvault.net//data/2015/10/09/180091/thumb16.jpg" alt="SEO Icon"/>
+          <h6>SEO</h6>
+          <p>1 year experience</p>
+        </div>
+        <div class="skill">
+          <img src="https://images.unsplash.com/photo-1507721999472-8ed4421c4af2" alt="CSS Icon"/>
+          <h6>CSS</h6>
+          <p>1 year experience</p>
+        </div>
+        <div class="skill">
+          <img src="https://images.unsplash.com/photo-1633356122544-f134324a6cee" alt="React Icon"/>
+          <h6>React</h6>
+          <p>1 year experience</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SECTION 5 Projects ===== -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-card">
+        <h3>Inventory App</h3>
+        <ul>
+          <li>I built an inventory app for a pest control company to monitor and track employee product usage using Django for the back-end and React for the front-end.</li>
+        </ul>
+      </div>
+      <hr>
+      <div class="project-card">
+        <h3>Glenpool Conference Center</h3>
+        <ul>
+          <li>I developed an SEO-friendly multi-page website for the City of Glenpool's new Conference Center. It contains multiple pages, sections, and sub-sections.</li>
+        </ul>
+      </div>
+      <hr>
+      <div class="project-card">
+        <h3>Couples Mobile App</h3>
+        <ul>
+          <li>I created a mobile app for couples focused on building stronger communication using React Native and cloud services. Databases included Realm and MongoDB Atlas.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== SECTION 6 Recommendations ===== -->
+    <section id="recommendations" class="recommendations">
+      <h2 class="recommendation-h2">Recommendations</h2>
+      <div id="all_recommendations">
+        <div class="recommendation">“Bob learns quickly and grasps key concepts of the field. He is very thorough in his work and always aims for quality.”</div>
+        <div class="recommendation">“Working with Bob was an uplifting experience watching him go above and beyond for the team. I would definitely want to work with him again.”</div>
+        <div class="recommendation">“I had worked along with Bob during the initial phase of our company. His knowledge and commitment brought amazing results in our web development needs. He will be a great asset for any organisation!”</div>
+        <div class="recommendation">“Bob brings a community culture to the team and is always there to help. He is the type of person that will always be there to help the team.”</div>
+        <div class="recommendation">“I worked on a project with Bob that offered many challenges but his focus and commitment helped us to overcome those hurdles. I would be more than happy to work with him again.”</div>
+        <div class="recommendation">“Bob has a great sense of humor! When the stress of a project was wearing on the team, he managed to lift our spirits and motivated us to keep going. He helped to alleviate the stress and brought focus and uplifted spirits.”</div>
+      </div>
+    </section>
+
+    <!-- ===== SECTION 7 Contact ===== -->
+    <section class="contacts" id="contact-section">
+      <div class="flex_center">
+        <div class="form-box">
+          <form id="recommendation-form">
+            <h2>Leave A Recommendation</h2>
+            <input type="text" placeholder="Your Name" required />
+            <textarea placeholder="Your Recommendation" required></textarea>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <div id="popup" class="popup-container">
+        <div class="pop-content">
+          <img class="checkmark" src="Pics/checkmark--outline.svg" alt="Success" />
+          <h3>Thank you!</h3>
+          <p id="popup-message">Thanks for leaving a recommendation!</p>
+        </div>
+      </div>
+    </section>
+    
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>&copy; 2025 Bob's Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <div id="backToTop" class="back-to-top">↑</div>
+  <script src="popup.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
